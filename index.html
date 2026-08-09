@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<meta name="description" content="Stabia Elite & Stabia Events — tutti i nostri link.">
+<title>Stabia Elite · Stabia Events</title>
+<style>
+:root{--gold:#d8b45c;--gold2:#f0d79b;--white:#fff;--black:#050505;--glass:rgba(7,7,7,.64);--line:rgba(255,255,255,.16)}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:#050505;color:#fff;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.page{position:relative;max-width:760px;margin:auto;overflow:hidden}
+.bg{position:fixed;inset:0;z-index:-2;background-image:url('assets/castellammare.jpg');background-size:cover;background-position:center center;transform:scale(1.03);animation:slowzoom 18s ease-in-out infinite alternate}
+.bg:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.46),rgba(0,0,0,.62) 48%,rgba(0,0,0,.72))}
+@keyframes slowzoom{from{transform:scale(1.03)}to{transform:scale(1.09)}}
+.section{min-height:100svh;padding:34px 20px 44px;display:flex;flex-direction:column;justify-content:center;position:relative}
+.section+ .section{border-top:1px solid rgba(255,255,255,.22)}
+.content{width:min(470px,100%);margin:auto}
+.logo-elite{width:min(235px,68vw);margin:0 auto 22px;background:#000;border-radius:6px;box-shadow:0 12px 50px rgba(0,0,0,.35)}
+.logo-elite img{display:block;width:100%;height:auto}
+.logo-events{width:min(330px,80vw);margin:0 auto 22px;padding:13px 18px;background:rgba(255,255,255,.94);border-radius:14px;box-shadow:0 12px 50px rgba(0,0,0,.3)}
+.logo-events img{display:block;width:100%;height:auto}
+.eyebrow{text-align:center;text-transform:uppercase;letter-spacing:.28em;font-size:10px;color:rgba(255,255,255,.72);margin:0 0 22px}
+.links{display:grid;gap:12px}
+.btn{min-height:58px;border-radius:999px;border:1px solid var(--line);background:var(--glass);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;gap:11px;padding:15px 20px;color:#fff;font-size:15px;font-weight:500;box-shadow:0 8px 25px rgba(0,0,0,.18);transition:.18s ease}
+.btn:hover,.btn:focus-visible{transform:translateY(-1px);background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.34);outline:none}
+.btn.primary{background:var(--gold);border-color:var(--gold);color:#080808;font-weight:700;box-shadow:0 10px 30px rgba(0,0,0,.28)}
+.btn.primary:hover,.btn.primary:focus-visible{background:var(--gold2);border-color:var(--gold2)}
+.icon{width:19px;height:19px;flex:0 0 auto}
+.divider{height:1px;width:54px;background:var(--gold);opacity:.65;margin:26px auto 0}
+.footer{text-align:center;padding:18px;color:rgba(255,255,255,.46);font-size:9px;letter-spacing:.16em;text-transform:uppercase}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.bg{animation:none}.btn{transition:none}}
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"></div>
+<main class="page">
+<section class="section" id="stabia-elite" aria-label="Stabia Elite">
+<div class="content">
+<div class="logo-elite"><img src="assets/stabia-elite.jpg" alt="Stabia Elite"></div>
+<p class="eyebrow">Stabia Elite</p>
+<nav class="links" aria-label="Stabia Elite">
+<a class="btn primary" href="https://eclipsianight.com/prenota.html" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/></svg>Prenotazioni</a>
+<a class="btn" href="https://www.instagram.com/stabiaelite" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>Instagram</a>
+<a class="btn" href="https://www.tiktok.com/@stabievents_" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M14.2 3c.4 2.2 1.7 3.7 4 4v3.2c-1.5-.1-2.8-.6-4-1.4v6.4a5.8 5.8 0 1 1-5-5.7v3.3a2.5 2.5 0 1 0 1.8 2.4V3h3.2Z"/></svg>TikTok</a>
+</nav><div class="divider"></div>
+</div></section>
+<section class="section" id="stabia-events" aria-label="Stabia Events">
+<div class="content">
+<div class="logo-events"><img src="assets/stabia-events.png" alt="Stabia Events"></div>
+<p class="eyebrow">Stabia Events</p>
+<nav class="links" aria-label="Stabia Events">
+<a class="btn" href="https://www.instagram.com/stabiaevents_" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>Instagram</a>
+<a class="btn" href="https://www.tiktok.com/@stabievents_" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M14.2 3c.4 2.2 1.7 3.7 4 4v3.2c-1.5-.1-2.8-.6-4-1.4v6.4a5.8 5.8 0 1 1-5-5.7v3.3a2.5 2.5 0 1 0 1.8 2.4V3h3.2Z"/></svg>TikTok</a>
+</nav><div class="divider"></div>
+</div></section>
+<div class="footer">Stabia Elite · Stabia Events</div>
+</main>
+</body>
+</html>
